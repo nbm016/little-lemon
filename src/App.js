@@ -19,6 +19,10 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <Header/>
+      <Nav/>
+      <Main/>
+      <Footer/>
       Homepage
     </div>
   );
