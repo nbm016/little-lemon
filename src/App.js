@@ -1,5 +1,6 @@
 
 import './App.css';
+import Nav from './components/Nav'
 
 function App() {
   return (
@@ -19,11 +20,11 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Header/>
+      {/*<Header/>
       <Nav/>
       <Main/>
-      <Footer/>
-      Homepage
+      <Footer/> */}
+      <Nav/>
     </div>
   );
 }
