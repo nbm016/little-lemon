@@ -6,7 +6,7 @@ function Header(){
         <header className="header">
             <section>
                 <div className="banner">
-                    <h2> Little Lemon </h2>
+                    <h2 id="about-link"> Little Lemon </h2>
                     <h3> Chicago </h3>
                     <p> We are a family owned Mediterranean Restaurant, focused on Tradition Recipes
                     served with a Modern Twist. </p>

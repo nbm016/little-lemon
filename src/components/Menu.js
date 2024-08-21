@@ -33,7 +33,7 @@ function Menu() {
     return (
         <div className = 'menu-container'>
             <div className = 'menu-header'>
-                <h2> This week's specials!</h2>
+                <h2 id="menu-link"> This week's specials!</h2>
                 <button>Order Menu</button>
             </div>
 
