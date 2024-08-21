@@ -159,10 +159,84 @@ button {
   border-radius: 20px;
 }
 
+/* Booking Form Elements CSS */
+
 label, input {
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+/* Menu Elements CSS */
+
+.menu-container{
+  margin: 110px auto;
+  padding: 10px 13%;
+}
+
+.menu-container h2 {
+  color: #000;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.cards {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem 1rem;
+}
+
+.menu-items {
+  width: 350px;
+  background: #a9c8be;
+  border-radius: 8px;
+}
+
+.menu-items #description {
+  /*margin-top: 5px;*/
+  padding: 10px 5%;
+}
+
+.menu-container img {
+  width: 100%;
+  height: 233px;
+  border-radius: 8px;
+}
+
+.menu-content {
+  padding: 5px 15px;
+}
+
+.menu-content .heading {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.btn-position {
+  padding: 10px 30%;
+}
+.order-btn {
+  padding: 5px 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+
+.order-btn:hover {
+  background-color:#EE9972;
 }
 
 @media screen and (max-width: 768px){

@@ -4,7 +4,7 @@ import Nav from './components/Nav'
 //import Header from './components/Header'
 //import BookingForm from './components/BookingForm';
 import Main from './components/Main';
-//import Menu from './components/Menu';
+import Menu from './components/Menu';
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
       
       <Nav/>
       <Main/>
-      
+      <Menu/>
     </div>
   );
 }
